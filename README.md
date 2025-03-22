@@ -1,1 +1,1 @@
-[Website Link]([url](https://parthpandya5.github.io))
+[Website Link]([https://parthpandya5.github.io])
