@@ -11,7 +11,7 @@ const colorThemes = [
   ['#D8E3DC', '#E2C290'], // Soft Sage & Warm Sand
   ['#E6E6FA', '#495867'], // Light Lavender & Slate
   ['#F4A261', '#264653'], // Coral Gold & Deep Teal
-  ['#F6D5D5', '#2C2C54'], // Pale Rose & Charcoal Purple
+  ['#F6D5D5', '#6C5CE7'], // Refined Purple & Pale Rose
   ['#BDE0FE', '#A9A9A9']  // Ice Blue & Silver Gray
 ];
 
