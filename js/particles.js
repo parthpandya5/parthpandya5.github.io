@@ -7,12 +7,12 @@ canvas.height = window.innerHeight;
 
 // Color Theme Generator
 const colorThemes = [
-  ['#06D6A0', '#1B9AAA'], // Teal & Turquoise
-  ['#FF6B6B', '#FFD93D'], // Red & Yellow
-  ['#6A0572', '#AB83A1'], // Purple & Lavender
-  ['#2E86AB', '#A6DF95'], // Blue & Green
-  ['#F46036', '#5B85AA'], // Orange & Blue
-  ['#540D6E', '#EE4266']  // Purple & Pink
+  ['#F2F2F2', '#4A90E2'], // Cool White & Graphite Blue
+  ['#D8E3DC', '#E2C290'], // Soft Sage & Warm Sand
+  ['#E6E6FA', '#495867'], // Light Lavender & Slate
+  ['#F4A261', '#264653'], // Coral Gold & Deep Teal
+  ['#F6D5D5', '#2C2C54'], // Pale Rose & Charcoal Purple
+  ['#BDE0FE', '#A9A9A9']  // Ice Blue & Silver Gray
 ];
 
 // Randomly select a color theme
