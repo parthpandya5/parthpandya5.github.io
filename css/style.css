@@ -93,6 +93,13 @@ h1 {
 
 .bio p + p { margin-top: 18px; }
 
+.bio .professional {
+  color: var(--text);
+  font-size: 18px;
+}
+
+.bio .education { font-size: 14px; }
+
 strong {
   color: var(--text);
   font-weight: 500;
