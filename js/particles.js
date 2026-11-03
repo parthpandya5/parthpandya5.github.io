@@ -1,16 +1,17 @@
 (() => {
-  // Pick one coordinated palette per visit. Lighter accents keep links readable.
+  // Name, secondary accent, and a distinct company highlight for each palette.
   const themes = [
-    ['#F2F2F2', '#4A90E2'], // Cool white and blue
-    ['#D8E3DC', '#E2C290'], // Sage and sand
-    ['#E6E6FA', '#9EB1C7'], // Lavender and slate
-    ['#F4A261', '#83BAC2'], // Coral gold and teal
-    ['#F6D5D5', '#B4A7FF'], // Pale rose and purple
-    ['#BDE0FE', '#A9A9A9']  // Ice blue and silver
+    ['#F2F2F2', '#4A90E2', '#78B7FF'], // Cool white and blue
+    ['#D8E3DC', '#E2C290', '#E2C290'], // Sage and sand
+    ['#E6E6FA', '#9EB1C7', '#B6A4ED'], // Lavender and slate
+    ['#F4A261', '#83BAC2', '#F4A261'], // Coral gold and teal
+    ['#F6D5D5', '#B4A7FF', '#B4A7FF'], // Pale rose and purple
+    ['#BDE0FE', '#A9A9A9', '#8DCAFA']  // Ice blue and silver
   ];
   const colors = themes[Math.floor(Math.random() * themes.length)];
   document.documentElement.style.setProperty('--accent', colors[0]);
   document.documentElement.style.setProperty('--accent-secondary', colors[1]);
+  document.documentElement.style.setProperty('--company-accent', colors[2]);
 
   const container = document.getElementById('canvas-container');
   if (!container) return;
