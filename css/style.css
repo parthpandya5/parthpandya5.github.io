@@ -5,6 +5,7 @@
   --muted: #d0d0cb;
   --accent: #f4a261;
   --accent-secondary: #83bac2;
+  --company-accent: #f4a261;
 }
 
 * {
@@ -101,12 +102,11 @@ h1 {
 
 .bio .education { font-size: 14px; }
 
-strong {
-  color: var(--accent);
-  font-weight: 500;
+.professional strong {
+  color: var(--company-accent);
+  font-weight: 600;
 }
 
-.bio strong:nth-of-type(even),
 .bio a:nth-of-type(even),
 .contact-links a:nth-of-type(even) {
   color: var(--accent-secondary);
